@@ -20,8 +20,12 @@
         "docker_push": "yarn build_docker && docker push mchauge/payhip-discord-bot:stable",
         "docker_push_beta": "yarn build_docker_beta && docker push mchauge/payhip-discord-bot:beta"
     },
+    "dependencies": {
+        "yarn": "^1.22.19"
+    },
     "devDependencies": {
         "nodemon": "^2.0.7",
         "cross-env": "^7.0.3"
-    }
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
